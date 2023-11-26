@@ -1,14 +1,14 @@
-.App { display: flex; align-items: center; justify-content: center; min-width: 100vw; min-height: 100vh; background:  #666666; }
+.App { display: flex; align-items: center; justify-content: center; min-width: 100vw; min-height: 100vh; background:  #292f7e}
   
-.loginContainer { display: flex; flex-direction: column; align-items: center; width: 25em; height: 95vh; background-color: #eff0ef; border-radius: 25px; }
+.loginContainer { display: flex; flex-direction: column; align-items: center; width: 22em; height: 90nvh; background-color: white; border-radius: 25px; }
 
 .input-container { display: flex; flex-direction: column; gap: 8px; margin: 10px; }
 .input-container input { border-radius: 5px; border-width: 15px; border:whitesmoke; box-shadow: 0 0 6px rgb(166, 159, 255); outline: none;  padding:8px; height: 2em;  width: 18em; }
-input:focus { box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(125, 115, 255); outline: 0 none; }
+input:focus { box-shadow: 0 1px 1px rgba(40, 12, 196, 0.075) inset, 0 0 16px rgb(125, 115, 255); outline: 0 none; }
 
 a{ font-weight: 500; margin: 3px; cursor: pointer; align-self: baseline; }
 
-.loginBut { height: 3em; width: 20em; margin: 10px; margin-top: 25px; border-radius: 5px; background:#212ded; border: none; transition: all .2s ease-in-out; }
+.loginBut { height: 3em; width: 20em; margin: 10px; margin-top: 25px; border-radius: 5px; background:#3574d3; border: none; transition: all .2s ease-in-out; }
 .loginBut:hover {transform: scale(1.1); box-shadow: 0 0 12px rgb(199, 199, 199);}
 .loginBut p{ font-size: 17px; margin-top: 10px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
@@ -16,6 +16,6 @@ a{ font-weight: 500; margin: 3px; cursor: pointer; align-self: baseline; }
 .google:hover { transform: scale(1.1); box-shadow: 0 0 12px rgb(199, 199, 199); cursor: pointer;}
 .google p{font-size: 16px;}
 
-.fbk { display: flex; align-items: center; gap:18px; height: 3em; width: 20em; margin: 10px; border-radius: 5px; background-color: #444ee6; border-color:#212ded; transition: all .2s ease-in-out; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.fbk { display: flex; align-items: center; gap:18px; height: 3em; width: 20em; margin: 10px; border-radius: 5px; background-color: #5560f7; border-color:#212ded; transition: all .2s ease-in-out; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .fbk:hover { transform: scale(1.1); box-shadow: 0 0 12px rgb(199, 199, 199); cursor: pointer;}
-.fbk p { font-size: 16px; }
+.fbk p { font-size: 16px; : azure; }
